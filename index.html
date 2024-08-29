@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./public/build/styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="./public/dist/index.js" defer></script>
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+
+<body class="h-screen bg-[hsl(218,23%,16%)]">
+
+  <main class="bg-[hsl(217,19%,24%)]  mx-4 px-6 rounded-md min-h-[50%] relative mt-[20%] md:min-h-[50%] md:mx-[20%] md:px-[20%] shadow-2xl md:mt-[5%]">
+    <div class="font-Manrope w-[80%] h-[80%] mx-auto absolute inset-0 top-1/2 transform -translate-y-1/2 flex flex-col items-center md:w-[60%] md:h-[60%] ">
+      <h1 id="adviseT" class="text-[hsl(150,34%,71%)] mb-6 font-bold"></h1>
+      <p id="adviseP" class="text-[hsl(193,38%,86%)] font-bold h-52 text-center font-['Manrope']"></p>
+      <img class="mb-9 md:w-[90%] md:h-9" src="./public/assets/images/pattern-divider-mobile.svg" alt="separation line">
+    </div>
+
+    <div id="diceDiv" class="size-16 bg-[hsl(150,34%,71%)] rounded-full flex items-center justify-center absolute bottom-[-1.5rem] left-1/2 transform -translate-x-1/2 hover:cursor-pointer hover:transition duration-500 hover:scale-125">
+      <button class="">
+        <img src="./public/assets/images/icon-dice.svg" alt="Icon dice">
+      </button>
+    </div>
+  </main>
+
+  <footer class="mt-[20%] md:mt-[5%]">
+    <div class="flex flex-col items-center">
+      <p class="text-[hsl(193,38%,86%)] font-['Manrope'] hover:text-[hsl(150,34%,71%)] hover:transition duration-500 hover:scale-125">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
+      <p class="text-[hsl(193,38%,86%)] font-['Manrope'] hover:text-[hsl(150,34%,71%)] hover:transition duration-500 hover:scale-125 mt-9">Coded by <a href="https://www.linkedin.com/in/christian-quirama-hern%C3%A1ndez-frontend-developer-reactjs-junior/">Christian Quirama Hernández</a>.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
